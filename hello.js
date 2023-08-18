@@ -31,7 +31,7 @@ var result = getMemberCount()["result"];
 console.log(result);
 
 // Write the numbers of member back to HTML
-document.getElementById("telegram-users").innerText = `${result}`;
+document.getElementById("telegram-users").innerText = ` ${result} others`;
 
 // Use this to find the *chat_id* for your group chat
 //console.log(httpRequest(`https://api.telegram.org/bot${Token}/getUpdates`, "GET"));
